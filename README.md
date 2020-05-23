@@ -22,6 +22,7 @@ Program created for learn time and plot modules.
 It helps me to understand how python works. It's exercise on Udemy.com
 Program practise with you typing words on kayboard, showing how long it takes you to write one word 5 times.
 In the end it's showing your statistic on chart.
+ ![exaple chart](./chart.jpg)
 
 ### Technologies.
 
