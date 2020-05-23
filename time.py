@@ -11,17 +11,17 @@ import matplotlib.pyplot as plt
 print("Program to practice speed up typing words")
 print("Try to type 'wodosplad' five times and do not make mistakes")
 ready=input("Can we start?(Y?N)").lower()
-x=[]
-y=[1,2,3,4,5]
+y=[]
+x=[1,2,3,4,5]
 if ready == "y":
     print("start!")
-    t.sleep(1)
     for fast in range(1,6):
+        t.sleep(4)
         start=t.time()
-        word=input("Roud "+str(fast)+": ")
+        word=input("Round "+str(fast)+": ")
         end=t.time()
         time=end-start
-        x.append(time)
+        y.append(time)
         if word == 'wodospad':
             print("Good work!\nYou can do it faster!")
         else:
@@ -29,10 +29,14 @@ if ready == "y":
         print("It took you {} sec.".format(round(time,2)
                                        ))
     print("You did it five times, how it feels?\n Let see your results!")
+
+#And now show it on plot!
+
     plt.plot(x,y)
-    plt.xlabel("sec")
-    plt.ylabel("round")
+    plt.ylabel("sec")
+    plt.xlabel("round")
     plt.title("Your Score")
+    t.sleep(3)
     plt.show()
 else:
     print("Mabe next time!")
