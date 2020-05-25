@@ -37,7 +37,7 @@ I used 2 modules:
 
 You need only an IDLE for python and those 2 modules. Time module is installed with python libary.
 For istalling Matplotlib on your powershell(for windows) type "pip install matplotlib".
-Or visit web site https://matplotlib.org/users/installing.html there is instruction on haw to install on all systems.
+Or visit web site https://matplotlib.org/users/installing.html there is instruction on how to install on all systems.
 
 ### Status.
 
