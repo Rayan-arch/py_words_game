@@ -28,16 +28,18 @@ In the end it's showing your statistic on chart.
 
 ### Technologies.
 
-I used 2 modules:
+I used 3 modules:
 * Time module.
 * Matplotlib module (3.2.1)
+* Random module.
 * Python (3.8.1)
 
 ### Setup.
 
-You need only an IDLE for python and those 2 modules. Time module is installed with python libary.
+You need only an IDLE for python and those 3 modules. Time module is installed with python libary.
 For istalling Matplotlib on your powershell(for windows) type "pip install matplotlib".
 Or visit web site https://matplotlib.org/users/installing.html there is instruction on how to install on all systems.
+Random module is already in python.
 
 ### Status.
 
@@ -51,7 +53,7 @@ Add levels that you can pic one and on higher levels will be longer words or eve
 ### To Do.
 
 For now:
-* add more words
+* add more words maybe in some other file
 * average time for every word and avrage time/letter
 
 ### Sources.
